@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header {
+    margin:auto;
+    width: 350px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+header {
+    background-image: url(22.jpg);
+    width: 100%;
+    height: 100px;
+}
+
+.segundoHeader {
+background-image: url(color\ negro.png);
+height: 50px;
+
+}
+
+
+
+
+
+
+
+.tituloUno {
+    color: rgb(255, 255, 255);
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    line-height: 40px;
+    text-align: left;  
+}
+.tituloDos {
+    color: rgb(6, 214, 214);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+         
+.subtitulo {
+    color: rgb(255, 24, 24);
+        font-family: 'Tajawal', sans-serif;
+        font-style: italic;
+        line-height: px;
+        text-align: left;
+        }
+
+
+td {
+    color: rgb(255, 24, 24);
+    font-family: 'Tajawal', sans-serif;
+    font-style: italic;
+    font-style: oblique;
+}
+
+th {
+    color: rgb(255, 24, 24);
+    font-family: 'Tajawal', sans-serif;
+    font-style: italic;
+}
+
+.ultimo {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 40px;
+}
+.video1 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.ultimoFotos {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 40px;
+    
+}
+.nosotros {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+.bandaDos {
+    border-radius: 5%;
+
+     
+}
+
+.bandaTres {
+    border-radius: 5%;
+
+}
+
+.nosotros1 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    border-radius: 5%;
+
+    
+}
+.nosotrosDos {
+   display: flex;
+   justify-content: center;
+    width: 700px;
+    height: auto;
+    line-height: 35px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}    
+
+.fondo {
+    background-image: url(32.jpg);
+
+}
+
+#wrapper {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#botonFlecha {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#botonFlecha :active{
+    background: #cc2333;
+}
+
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+  }
+  
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+  }
+  
+  
+
+
+
+/*TABLET*/
+
+@media (min-width: 600px) and (max-width:1023px) {
+    .fondo {
+        background-image: url(12.png);
+    }
+
+}
+
+/*celular*/
+@media (min-width: 599px) {
+    .fondo {
+        background-image: url(22.jpg);
+    }
+}
